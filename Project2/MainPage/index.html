@@ -13,16 +13,20 @@
 
 
 
-    <link rel="stylesheet" href="./project2.css">
-    <link rel="stylesheet" href="./Media.css">
-
     <!-- Font Awsome -->
         <script src="https://kit.fontawesome.com/3692f58ddc.js" crossorigin="anonymous"></script>
     <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
     <!-- Google Font  -->
     <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./project2.css">
+    <link rel="stylesheet" href="./Media.css">
 
     <title> Amro AL - Wageei </title>
 
@@ -36,6 +40,8 @@
             flex-direction: row;
             text-align: center;
             margin: 3% 0%;
+            font-size: 30px;
+            font-weight: lighter;
         
 
         }
@@ -52,6 +58,26 @@
    }    
      
 
+/* h3 #line       {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin: 3% 0%;
+            font-size: 30px;
+            font-weight: lighter;
+        
+
+        }
+          
+        h3:before,
+        h3:after {
+            content: "  ";
+            flex: 1 1;
+            border-bottom: 1px solid rgb(210, 210, 210);
+            margin: auto 5%;
+        } */
+
+
 </style>
 
 
@@ -67,7 +93,7 @@
   
 <header> 
         <nav class="nav_bar">
-            <img src="../Images/AMROLOGO.png" alt="Me" class="logo">
+            <img src="../Images/LOGOAMRO.png" alt="Me" class="logo">
             <ul>
                 <li> <a href="#aboutme99"> ABOUT ME</a></li>
                 <li> <a href="#exper99"> EXPERINCE</a></li>
@@ -75,23 +101,47 @@
                 <li> <a href="#pro99"> PROJECT </a></li>
                 <li> <a href="#cour99"> COURSES  </a></li>
                 <li> <a href="#free99">FREELANCE </a></li>
-                <li> <a href="#skill99"> SKILLS & Language </a></li>
+                <li> <a href="#skills99"> SKILLS</a></li>
+                <li> <a href="#lang99"> LANGUAGES</a></li>
                 <li> <a href="#hobby99"> HOBBY </a></li>
                 <li> 
-                
-                
-                <!-- <select class="form-select" aria-label="Default select example">
-                    <option selected> <a href="#hobby99"> Others </a></option>
-                    <option> <a href="#hobby99"> HOBBY </a></option>
-                    
-                </select> -->
-                
-                
                 </li>
             </ul>
         </nav>
 
+        <div class="drop">
+        
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                <p> <a class="darkbar" href="#aboutme99"> ABOUT ME </a> </p>
+                <p> <a class="darkbar" href="#exper99"> EXPERINCE </a> </p>
+                <p> <a class="darkbar" href="#edu99"> EDUCATION </a> </p>
+                <p> <a class="darkbar" href="#pro99"> PROJECT </a> </p>
+                <p> <a class="darkbar" href="#cour99"> COURSES </a> </p>
+                <p> <a class="darkbar" href="#free99"> FREELANCE </a> </p>
+                <p> <a class="darkbar" href="#skills99"> SKILLS </a> </p>
+                <p> <a class="darkbar" href="#lang99"> LANGUAGES </a> </p>
+                <p> <a class="darkbar" href="#hobby99"> HOBBY </a> </p>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+
+
+
 </header>
+
+
+
 
 
 <!-- Cover Section -->
@@ -99,16 +149,16 @@
 
     <div class="para"> 
 
-            <h1> I'm Amro <span> Al - Wageei </span> </h1>
+            <h1>  I'm Amro <span> Al - Wageei </span> </h1>
             <br>
-            <p> Internship As a <q> Full-Stack Web Developer </q>  <br>
+            <p> BootCamp As a <q> Full-Stack Web Developer </q>  <br>
                 At - Orange Coding Academy </p>
             <a href="../Document's/Amro Salahhuddin Othman Al-Wageei__CV.pdf" target="_blank"> View my CV | Resume </a> 
 
             <div id="socailcover">
                             <p class="iconscover">
-                               <div id="iconscover1">  <i class="fa-solid fa-house"></i> <span> Aqaba , Amman - Jordan </span> </div>
-                               <div id="iconscover2">  <i class="fa-solid fa-calendar-days"></i> <span> " 1 / 10 / 1997 "</span> </div>
+                               <!-- <div id="iconscover1">  <i class="fa-solid fa-house"></i> <span> Aqaba , Amman - Jordan </span> </div> -->
+                               <div id="iconscover2">  <i class="fa-solid fa-calendar-days"></i> <span>  1 / 10 / 1997 </span> </div>
                                 <div id="iconscover3"> <i class="fa-solid fa-phone"></i> <span> +962778096913</span> </div>
                             </p>
              </div>
@@ -135,6 +185,7 @@
 <!-- About Me Section  -->
 <section  class="about">
     <section id="aboutme99">
+       
     
     <div class="about-section"> 
 
@@ -171,7 +222,7 @@
 
 <!-- Experince Start -->
 
-<section class="Experince">
+<!-- <section class="Experince">
     <section id="exper99">
         <br>
         <br>
@@ -236,7 +287,55 @@
 
     </div>
 </section>
+</section> -->
+
+
+<section id="exper99">
+<h3> <span> Experince </span> </h3>
+<section class="exptest" id="exper99">
+    
+ 
+
+
+
+
+    <div class="conttest">
+
+
+        <div class="boxtest" id="autt">
+            <h2> <img src="../Images/test22.webp" alt="aut" id=""></h2>
+            <br>
+            <h4><b> Aqaba-University-of-Technology </b></h4>
+            <br>
+            <p><q> Training material at the end of the fourth year at the same university </q></p>
+            <br>
+            <p> From : 9.2020 - 2.2021 </p>
+        </div>
+
+        <div class="boxtest" id="crystel">
+
+            <h4> Position : IT Help Desk </h4>
+            <h4> Requirements : ↓</h4>
+            <br>
+            <p>♦ Assists in training computer users.</p>
+            <p> ♦ Maintains daily optimal performance of computer systems.</p>
+            <p>♦ Interacts with network services.</p>
+            <p> ♦ Documents, tracks, and examine problems to ensure timely solutions.</p>
+            <p> ♦ Walk the customer through the problem-solving process</p>
+            <p> ♦ Determine the best solution based on the issue and details provided by customers</p>
+
+        </div>
+
+
+
+    </div>
 </section>
+</section>
+
+
+
+
+
 <!-- Experince End -->
 
 
@@ -248,13 +347,13 @@
         <br>
         <br>
         <br>
-    <h3 > <span> Education </span> </h3>
+    <h3 id="line" > <span> Education </span> </h3>
 
     <div class="education_section">
 
 
-        <div class="shadow-lg p-3 mb-5 bg-body rounded">
-        <div class="orangecoding">
+        <div class="shadow-lg p-3 mb-5 bg-body rounded col-sm">
+        <div class="orangecoding col-sm ">
             <div class="card" style="width: 18rem;">
                 <img src="../Images/OrangeCoding.png" class="card-img-top-orange" alt="...">
                 <div class="card-body">
@@ -270,7 +369,7 @@
         </div>
 
 
-        <div class="aut">
+        <div class="aut col-sm" >
             <div class="shadow p-3 mb-5 bg-body rounded">
 
                 <div class="card" style="width: 18rem;">
@@ -290,7 +389,7 @@
 
 <div class="shadow p-3 mb-5 bg-body rounded">
 
-        <div class="ittihadschool"> 
+        <div class="ittihadschool col-sm "> 
             <div class="card" style="width: 18rem;">
                 <img src="../Images/ittihad.jfif" class="card-img-top-ittihad" alt="...">
                 <div class="card-body">
@@ -329,20 +428,25 @@
     <div class="features" id="features">
         <div class="container">
 
-            <div class="box_quality">
-
+            
+            <div class="box_CCNA">
+            
                 <div class="img-holder">
-                    <img src="../Images/cheerful-african-american-male-student-worker-watching-online-lectures-webinars-writing-notes-notebook-black-guy-187877894.jpg"
-                        alt="" id="img1">
+                    <img src="../Images/overjoyed-african-man-raised-hands-up-guy-glasses-excited-happy-good-news-deal-looks-laptop-screen-triumph-187879697.jpg"
+                        alt="" id="img3">
                 </div>
-                <h4> Smart Scientific Journal </h4>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse doloremque iste, itaque ratione
-                    cupiditate accusantium soluta incidunt sit. Molestiae, similique. </p>
-
-                <a href="http://www.graduationprojects.eu/" target="_blank"> 
-                    <button type="button" class="btn btn-secondary">Grad
-                        Project</button> </a>
+                <h4> Amro Portfolio </h4>
+                <p> Creative web developer looking for interesting technologies that challenge me to grow professionally and
+                    Cultivated knowledge of HTML, CSS, JavaScript and QA </p>
+                <a href="https://miro.com/app/board/uXjVPJJlDUk=/" target="_blank"> <button type="button" class="btn btn-secondary">
+                        Mock Up </button> </a> &amp;
+            
+                <a href="https://miro.com/app/board/uXjVPJLqtf0=/" target="_blank"> <button type="button" class="btn btn-secondary">
+                        WireFrame </button>
+                </a>
+            
             </div>
+
 
 
             <div class="box_cyber">
@@ -350,7 +454,7 @@
                 <div class="img-holder">
                     <img src="../Images/istockphoto-1202768589-640x640.jpg" alt="" id="img2">
                 </div>
-                <h4> DBLUG Project</h4>
+                <h4> DBLG Project</h4>
                 <p> A Site for technical educational courses, for the most requested sections such as coding  and testing </p>
                 <p> <h4>DBLG &rarr; D " Discover " , B " Book " , L " Learn " G " Get Certified "</h4> </p>
                 <a href="https://miro.com/app/board/uXjVPOHa-UA=/" target="_blank"> <button type="button" class="btn btn-secondary">
@@ -359,24 +463,23 @@
 
 
 
-            <div class="box_CCNA">
 
+
+            <div class="box_quality">
+            
                 <div class="img-holder">
-                    <img src="../Images/overjoyed-african-man-raised-hands-up-guy-glasses-excited-happy-good-news-deal-looks-laptop-screen-triumph-187879697.jpg"
-                        alt="" id="img3">
+                    <img src="../Images/cheerful-african-american-male-student-worker-watching-online-lectures-webinars-writing-notes-notebook-black-guy-187877894.jpg"
+                        alt="" id="img1">
                 </div>
-                <h4> Amro Portfolio </h4>
-                <p> Creative web developer looking for interesting technologies that challenge me to grow professionally and 
-                Cultivated knowledge of HTML, CSS, JavaScript and PHP</p>
-                <a href="https://miro.com/app/board/uXjVPJJlDUk=/" target="_blank"> <button type="button" class="btn btn-secondary">
-                        Mock Up </button> </a> &amp;
-                
-                <a href="https://miro.com/app/board/uXjVPJLqtf0=/" target="_blank"> <button type="button" class="btn btn-secondary">
-                        WireFrame </button>
-                </a>
-
+                <h4> Smart Scientific Journal </h4>
+                <p> A scientific journal for research linked to the Aqaba University of Technology website, which benefits students
+                    and
+                    doctors inside the university . </p>
+            
+                <a href="http://www.graduationprojects.eu/" target="_blank">
+                    <button type="button" class="btn btn-secondary">Grad
+                        Project</button> </a>
             </div>
-
 
 
         </div>
@@ -404,14 +507,16 @@
 
                 <div class="colcourse1">
                 <div class="card border-secondary mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Python</div>
-                    <div class="card-body text-secondary">
+                    <div class="card-header">Python  </div>
+                    <div class="card-body text-secondary1">
                         <h5 class="card-title"> Orange Coursat </h5>
                         <p class="card-text"> Subject : STATEMENTS, SYNTAX, COMMENTS, AND VARIABLES | IF ELSE, LOOPS | ARRAYS , LISTS, TUPLES, AND SETS + DICTIONARIESH5P  | </p>
                         <p class="card-text"> Tools : Trinket </p>
 
-                        &darr;
-                    <a href="../Document's/Python_-_Beginner_Certificate_of_completion.pdf" target="_blank"> <p><i class="fa-brands fa-python"></i></p></a>
+                    <span id="ent">&darr;</span>
+                    <a href="../Document's/Python_-_Beginner_Certificate_of_completion.pdf" target="_blank">
+                     <p><i class="fa-brands fa-python"></i></p></a>
+                    
                     </div>
                 </div>
                 </div>
@@ -419,13 +524,13 @@
                 <div class="colcourse1">
                     <div class="card border-secondary mb-3" style="max-width: 18rem;">
                         <div class="card-header"> CCNA </div>
-                        <div class="card-body text-secondary">
+                        <div class="card-body text-secondary1">
                             <h5 class="card-title">CISCO & PSUT</h5>
                             <p class="card-text">Subject : Network Fundamentals , LAN Switching Technologies , Routing Technologies , WAN Technologies , Infrastructure Services , Infrastructure Security ,
                             Infrastructure Management</p>
 
                             <p class="card-text"> Tools : CISCO </p>
-                                &darr;
+                            <span id="ent">&darr;</span>
 
                             <a href="../Images/CCNA.png" target="_blank"> <p><i class="fa-solid fa-network-wired"></i></p></a>
 
@@ -439,11 +544,11 @@
                 <div class="colcourse1">
                     <div class="card border-secondary mb-3" style="max-width: 18rem;">
                         <div class="card-header"> ISTQB </div>
-                        <div class="card-body text-secondary">
+                        <div class="card-body text-secondary1">
                             <h5 class="card-title">The Hope International Company</h5>
                             <p class="card-text"> Subject : The Fundamentals of testing | Testing throughout the life-cycle | Static testing | Test design techniques | Test Management </p>
                             <p class="card-text"> Tools : Postman , JIRA </p>
-                            &darr;
+                            <span id="ent">&darr;</span>
    
                         <a href="../Images/OIP.jfif" target="_blank">
                             <p><i class="fa-solid fa-bug"></i></p>
@@ -494,10 +599,9 @@
 
                 <div id="textfree1">
 
-                    &rarr;
-                    <q> <b>
-                            <h4> Dont wait for opportunity , creat it 🤩 Your career start here 🎓 </h4>
-                        </b></q>
+                    
+                <q> <h4> Dont wait for opportunity , creat it 🤩 Your career start here 🎓</h4></q>
+                        
 
                     <p> A page specialized in creating a professional resume and logo, and our team is present in more than one country such a " Jordan , Palastine and UAE . </p>
                 </div>
@@ -525,8 +629,7 @@
 
                         <button type="button" class="btn btn-secondary">
 
-                            <i class="fa-duotone fa-laptop"></i>
-
+                            <i class="fa-brands fa-bandcamp"></i>
                         </button> </a>
 
                 </div>
@@ -547,52 +650,165 @@
 
 
 
-<!-- Skills and Lang Section -->
-<section class="skillandlang">
-        
-
-    <div >
-      <h3 id="skill99"> <span> Skills</span> </h3>
 
 
-        <ul id="skillsul">
-            <br>
-            <li> Create mock-ups for an application </li>
-            <br>
-            <li> Create static and adaptive web user interfaces </li>
-            <br>
-            <li> Develop a dynamic web user interface </li>
-            <br>
-            <li> Create a user interface with a content management or e-commerce solution </li>
-        
-        </ul>
+<!-- Skills Section  -->
+
+
+<section>
+    <section id="skills99">
+
+    <h3> <span> Skills </span> </h3>
+
+
+    <div class="contskills">
+
+        <div class="skills_box">
+            <div class="skills_title">
+                <div class="skills_img">
+                    <img src="../Images/HTML.png" alt="" class="skills_icon">
+                </div>
+
+                <h6>HTML5</h6>
+            </div>
+        </div>
+
+
+        <div class="skills_box">
+            <div class="skills_title">
+                <div class="skills_img">
+                    <img src="../Images/CSS.png" alt="" class="skills_icon">
+                </div>
+
+                <h6>CSS3</h6>
+            </div>        </div>
+
+
+        <div class="skills_box">
+            <div class="skills_title">
+                <div class="skills_img">
+                    <img src="../Images/java.png" alt="" class="skills_icon">
+                </div>
+
+                <h6>JavaScript</h6>
+            </div>
+        </div>
+
+
+        <div class="skills_box">
+            <div class="skills_title">
+                <div class="skills_img">
+                    <img src="../Images/Pythonlogo.png" alt="" class="skills_icon">
+                </div>
+
+                <h6>Python</h6>
+            </div>
+        </div>
+
+
+        <div class="skills_box">
+            <div class="skills_title" id="jira">
+                <div class="skills_img">
+                    <img src="../Images/jira.png" alt="" class="skills_icon">
+                </div>
+
+                <h6>JIRA Software</h6>
+            </div>
+        </div>
+
+
+        <div class="skills_box">
+            <div class="skills_title">
+                <div class="skills_img">
+                    <img src="../Images/what-is-scratch.png" alt="" class="skills_icon">
+                </div>
+
+                <h6>Scratch</h6>
+            </div>
+        </div>
+
+
     </div>
+    </section>
 
-    
-    <div class="lang">
-        <h3> <span> Languages</span> </h3>
-        <br>
-
-         <div id="jordan"> <img src="../Images/flag1.png" alt=""> 
-        <p class="para_lang"> &rarr; <span> Mother Language</span>  </p>
-        </div>
-
-         <div id="usa"> <img src="../Images/USAUSA.png" alt="">
-        <p class="para_lang"> &rarr;<span> Level " C1 " </span></p>
-        </div>
-
-         <div id="german"> <img src="../Images/flag3.png" alt="">
-        <p class="para_lang"> &rarr;<span> Level " A1 - A-Eiens " </span></p>
-        </div>
-
-
-         <div id="swedan"><img src="../Images/flag4.png" alt=""> <p class="para_lang"> &rarr;<span> Level " A1 , A-Ett " </span></p>  
-        
-        </div>
-
-        </div> 
 </section>
-<!-- End Skills and Lang Section -->
+
+
+
+<!-- End Skills Section -->
+
+
+
+
+<!-- Languages Section  -->
+
+
+<section>
+    <section id="lang99">
+
+
+        <h3> <span> Languages </span> </h3>
+
+
+        <div class="contlang">
+
+            <div class="lang_box">
+                <div class="lang_title">
+                    <div class="lang_img">
+                        <img src="../Images/jordan_18174.png" alt="" class="lang_icon">
+                    </div>
+
+                    <h6>Arabic</h6>
+                    <h4> Mother Languages</h4>
+                </div>
+            </div>
+
+
+            <div class="lang_box">
+                <div class="lang_title">
+                    <div class="lang_img">
+                        <img src="../Images/usa_flag_united_states_america_icon_228698.png" alt="" class="lang_icon">
+                    </div>
+
+                    <h6>English</h6>
+                    <h4> Level " B2 "</h4>
+                </div>
+            </div>
+
+
+            <div class="lang_box">
+                <div class="lang_title" id="">
+                    <div class="lang_img">
+                        <img src="../Images/germany_flag_icon_228675.png" alt="" class="lang_icon">
+                    </div>
+
+                    <h6> German</h6>
+                    <h4> Level A " A - Eines "</h4>
+
+                </div>
+            </div>
+
+
+            <div class="lang_box">
+                <div class="lang_title">
+                    <div class="lang_img">
+                        <img src="../Images/sweden_flag_flags_18089.png" alt="" class="lang_icon">
+                    </div>
+
+                    <h6> Swedan </h6>
+                    <h4> Level A " A - Ett "</h4>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+</section>
+
+
+
+<!-- End Skills Section -->
 
 
 
@@ -603,7 +819,7 @@
     <div class="cont">
 
             <div class="basketball">
-             <b> <h4> Basketball </h4></b>   
+             <b> <h4 id="baskethobby"> Basketball </h4></b>   
            <span>&rarr;</span> 
 
         <a href="../Video/Videobasket.mp4" target="_blank">
@@ -626,11 +842,11 @@
         </div> -->
 
 
-        <div class="Swimming"> 
+        <div class="Videokoby"> 
             <h4 id="koby"> This player who's inspire me! </h4>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/GhNhWsv3NlY" title="YouTube video player"
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen id="kobe"></iframe>
+                allowfullscreen id="kobe" control auto-play muted></iframe>
             <!-- <img src="../Images/SWIM.jfif" alt=""> -->
         </div>
 
@@ -644,6 +860,7 @@
 
 
 <!-- Fixed Section  -->
+
 <section>
 <div class="fixed-bottom"> 
 <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="on"><label class="btn btn-primary" for="btn-check-2" id="hireme">
@@ -653,12 +870,27 @@
 <div class="spinner-grow text-secondary" role="status">
     <span class="visually-hidden"> </span>
 </div>
-
-
-
-
-
 </div>
+
+
+
+
+<!-- End Fixed Section  -->
+
+
+ 
+<!-- Slides Section -->
+
+
+<section class="slide">
+
+
+    <div class="slider"> </div>
+    
+</section>
+
+
+<!-- End Slides Section -->
 
 
 
@@ -678,8 +910,8 @@
            <q>I've faild over and over and over again in my life and that is WHY I SUCCEED .  #Koby Bryant🏀 </q>
             <ul class="socialfooter">
                 <li><a href="https://www.linkedin.com/in/amro-al-wageei-69a597160/" target="_blank"> <i class="fa-brands fa-linkedin"> </i> </a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100012890643589" target="_blank"> <i class="fa-brands fa-facebook"> </i></a></li>
-                <li><a href="https://www.instagram.com/shandaqamro7/" target="_blank"> <i class="fa-brands fa-instagram"> </i> </a></li>
+                <li><a href="https://twitter.com/AmroSal74277945" target="_blank"> <i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/creators_962/" target="_blank"> <i class="fa-brands fa-instagram"> </i> </a></li>
                 <li><a href="https://wa.me/0799379762" target="_blank"> <i class="fa-solid fa-phone"> </i> </a></li>
                 <li><a href="https://mail.google.com/mail/u/0/?pli=1#inbox" target="_blank"> <i class="fa-solid fa-at"></i></a></li>
                 <li><a href="https://github.com/AmroAl-Wageei?tab=packages" target="_blank"> <i class="fa-brands fa-github"></i> </a></li>
@@ -694,3 +926,45 @@
 </footer>
 
 </html>
+
+
+
+
+<!-- <div>
+    <h3 id="skill99"> <span> Skills</span> </h3>
+
+
+    <ul id="skillsul">
+        <br>
+        <li> Create mock-ups for an application </li>
+        <br>
+        <li> Create static and adaptive web user interfaces </li>
+        <br>
+        <li> Develop a dynamic web user interface </li>
+        <br>
+        <li> Create a user interface with a content management or e-commerce solution </li>
+
+    </ul>
+</div> -->
+
+
+<!-- <h3> <span> Languages</span> </h3>
+<br>
+
+<div id="jordan"> <img src="../Images/flag1.png" alt="">
+    <p class="para_lang"> &rarr; <span> Mother Language</span> </p>
+</div>
+
+<div id="usa"> <img src="../Images/USAUSA.png" alt="">
+    <p class="para_lang"> &rarr;<span> Level " B2 " </span></p>
+</div>
+
+<div id="german"> <img src="../Images/flag3.png" alt="">
+    <p class="para_lang"> &rarr;<span> Level " A1 - A-Eiens " </span></p>
+</div>
+
+
+<div id="swedan"><img src="../Images/flag4.png" alt="">
+    <p class="para_lang"> &rarr;<span> Level " A1 , A-Ett " </span></p>
+
+</div> -->

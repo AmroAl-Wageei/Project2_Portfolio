@@ -1,56 +1,1620 @@
 
+@media screen and (max-width : 360px) {
 
-@media screen and (max-width : 1280px){
+    .contskills {
 
-    
-
-    .project {
-
-        width: 100px;
-        gap:0;
-        margin-right: 20%;
-
+        grid-template-columns: repeat(2 , 1fr);
+        padding: 2rem 50px;
     }
+
+
+        .contlang {
+    
+            flex-direction: column;
+            justify-content:end;
+            
+        }
+        
+        
+        .feat .contfree {
+
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            
+        }
+                #img1 {
+                    width: 310px;
+                    height: 240px;
+                    margin: 18px;
+                    border-radius: 10%;
+        
+                }
+        
+                #img2 {
+                    width: 310px;
+                    height: 240px;
+                    margin: 18px;
+                    border-radius: 10%;
+                }
+        
+                #img3 {
+                    width: 310px;
+                    height: 240px;
+                    margin: 18px;
+                    border-radius: 10%;
+                }
+
+
+
+
+
+        .rowcourse {
+        
+            flex-direction: column;   
+
+        }
+
+        .features .container {
+        
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+        
+        }
+
+        .education_section {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            
+        }
+        
+        .exper {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            position: relative;
+        }
+
+        .img_aut {
+        position: absolute;
+        right: 35%;
+        }
+
+
+
+                .about {
+        
+                    background-color: #262626;
+                }
+        
+                .body .about {
+        
+                    /* height: 40%; */
+                 
+                   
+                   
+                    background-color: black;
+                }
+        
+                .about-section {
+        
+                    background-color: #262626;
+                    position: relative;
+    
+                    
+                }
+        
+                .about-section img {
+                    position: relative;
+                    right: 150%;
+                    width: 100%;
+                    height: 100vh;
+                }
+        
+                .small_cont {
+        
+                    width: 100%;
+                    float:left;
+                    background-color: #eff4fd;
+    
+        
+                }
+        
+                .small_cont h5 {
+                 
+                    font-size: 20px;
+                    font-weight: 500;
+                    width: 100%;
+                }
+        
+                .text {
+        
+                    font-size: 20px;
+                    color: #545454;  
+                }
+        
+                .skillss {
+        
+                    display: flex;
+                    justify-content:space-evenly;
+                    font-weight: 500;
+                    font-size: 15px;
+                }
+
+
+                .para {
+
+                    position: relative;
+                    display: inline-block;
+                    margin-left: 0%;
+                }
+
+                .para h1 {
+
+                font-size: 20px;
+                    margin-left: 1%;
+                    
+                    margin-bottom: 20%;
+                }
+
+                span {
+
+                    color: #87B0C4;
+                    font-weight: 600;
+                }
+
+                .para p {
+                    color: #555;
+                    line-height: 30px;
+                }
+
+
+                
+
+                .iconscover {
+                    display: flex;
+                    flex-direction: column;
+    
+                    margin: 4%;
+                }
+
+                #iconscover1 {
+                    margin-bottom: 15px;
+                }
+
+                #iconscover2 {
+                    margin-bottom: 15px;
+                }
+
+            
+
+
+                .socailcover p {
+                    margin: 10px 0px;
+
+                }
+
+                .img .me {
+
+                    height: 50%;
+                    position: absolute;
+                    left: 80%;
+                    height: 36vw;
+                    
+
+                }
+
+                
+            
+
+                .nav_bar {
+
+                display: none;
+
+                }
+
+                .drop {
+                    display: inline;
+                }
+
+
+                .fixed-bottom {
+                    text-align: right;
+                    margin-bottom: 2%;
+                    color: #eff4fd;
+                    font-size: small;
+
+                }
+    }
+
+
+
+
+
+    /*              ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd    */
+
+        @media screen and ( min-width : 361px) and (max-width:416px) {
+
+
+            .contskills {
+            
+                    grid-template-columns: repeat(2, 1fr);
+                    padding: 2rem 50px;
+                }
+            
+            
+                .contlang {
+            
+                    flex-direction: column;
+                    justify-content: end;
+            
+                }
+            
+            
+                .feat .contfree {
+            
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+            
+                }
+            
+                #img1 {
+                    width: 310px;
+                    height: 240px;
+                    margin: 18px;
+                    border-radius: 10%;
+            
+                }
+            
+                #img2 {
+                    width: 310px;
+                    height: 240px;
+                    margin: 18px;
+                    border-radius: 10%;
+                }
+            
+                #img3 {
+                    width: 310px;
+                    height: 240px;
+                    margin: 18px;
+                    border-radius: 10%;
+                }
+            
+            
+            
+            
+            
+                .rowcourse {
+            
+                    flex-direction: column;
+                    text-align: center;
+                    justify-content: center;
+            
+                }
+            
+                .features .container {
+            
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+            
+                }
+            
+                .education_section {
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+            
+                }
+            
+                .exper {
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    position: relative;
+                }
+            
+                .img_aut {
+                    position: absolute;
+                    right: 35%;
+                }
+            
+            
+            
+                .about {
+            
+                    background-color: #262626;
+                }
+            
+                .body .about {
+            
+                    /* height: 40%; */
+            
+            
+            
+                    background-color: black;
+                }
+            
+                .about-section {
+            
+                    background-color: #262626;
+                    position: relative;
+            
+            
+                }
+            
+                .about-section img {
+                    position: relative;
+                    right: 150%;
+                    width: 100%;
+                    height: 100vh;
+                }
+            
+                .small_cont {
+            
+                    width: 100%;
+                    float: left;
+                    background-color: #eff4fd;
+            
+            
+                }
+            
+                .small_cont h5 {
+            
+                    font-size: 20px;
+                    font-weight: 500;
+                    width: 100%;
+                }
+            
+                .text {
+            
+                    font-size: 20px;
+                    color: #545454;
+                }
+            
+                .skillss {
+            
+                    display: flex;
+                    justify-content: space-evenly;
+                    font-weight: 500;
+                    font-size: 15px;
+                }
+            
+            
+                .para {
+            
+                    position: absolute;
+                    display: inline-block;
+                    margin-left: 10%;
+                }
+            
+                .para h1 {
+            
+                    font-size: 20px;
+                    margin-left: 1%;
+            
+                    margin-bottom: 20%;
+                }
+            
+                span {
+            
+                    color: #87B0C4;
+                    font-weight: 600;
+                }
+            
+                .para p {
+                    color: #555;
+                    line-height: 30px;
+                }
+            
+            
+            
+            
+                .iconscover {
+                    display: flex;
+                    flex-direction: column;
+            
+                    margin: 4%;
+                }
+            
+                #iconscover1 {
+                    margin-bottom: 15px;
+                }
+            
+                #iconscover2 {
+                    margin-bottom: 15px;
+                }
+            
+            
+            
+            
+                .socailcover p {
+                    margin: 10px 0px;
+            
+                }
+            
+                .img .me {
+            
+                    height: 50%;
+                    position: absolute;
+                    left: 80%;
+                    height: 36vw;
+            
+            
+                }
+            
+            
+            
+            
+                .nav_bar {
+            
+                    display: none;
+            
+                }
+            
+                .drop {
+                    display: inline;
+                }
+            
+            
+                .fixed-bottom {
+                    text-align: right;
+                    margin-bottom: 2%;
+                    color: #eff4fd;
+                    font-size: small;
+            
+                }
+        }
+
+
+
+        /*     ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd    */
+
+
+                 @media screen and (min-width : 417px) and (max-width:541px) {
+        
+        
+                     .contskills {
+        
+                         grid-template-columns: repeat(2, 1fr);
+                         padding: 2rem 50px;
+                     }
+        
+        
+                     .contlang {
+        
+                         flex-direction: column;
+                         justify-content: end;
+        
+                     }
+        
+        
+                     .feat .contfree {
+        
+                         grid-template-columns: repeat(1, 1fr);
+                         grid-template-rows: repeat(3, 1fr);
+        
+                     }
+        
+                     #img1 {
+                         width: 310px;
+                         height: 240px;
+                         margin: 18px;
+                         border-radius: 10%;
+        
+                     }
+        
+                     #img2 {
+                         width: 310px;
+                         height: 240px;
+                         margin: 18px;
+                         border-radius: 10%;
+                     }
+        
+                     #img3 {
+                         width: 310px;
+                         height: 240px;
+                         margin: 18px;
+                         border-radius: 10%;
+                     }
+                     
+                     .rowcourse {
+        
+                         flex-direction: column;
+        
+                     }
+        
+                     .features .container {
+        
+                         grid-template-columns: repeat(1, 1fr);
+                         grid-template-rows: repeat(3, 1fr);
+        
+                     }
+        
+                     .education_section {
+                         grid-template-columns: repeat(1, 1fr);
+                         grid-template-rows: repeat(3, 1fr);
+        
+                     }
+        
+                     .exper {
+                         grid-template-columns: repeat(1, 1fr);
+                         grid-template-rows: repeat(2, 1fr);
+                         position: relative;
+                     }
+        
+                     .img_aut {
+                         position: absolute;
+                         right: 35%;
+                     }
+        
+        
+        
+                     .about {
+        
+                         background-color: #262626;
+                     }
+        
+                     .body .about {
+        
+                         /* height: 40%; */
+        
+        
+        
+                         background-color: black;
+                     }
+        
+                     .about-section {
+        
+                         background-color: #262626;
+                         position: relative;
+        
+        
+                     }
+        
+                     .about-section img {
+                         position: relative;
+                         right: 150%;
+                         width: 100%;
+                         height: 100vh;
+                     }
+        
+                     .small_cont {
+        
+                         width: 100%;
+                         float: left;
+                         background-color: #eff4fd;
+        
+        
+                     }
+        
+                     .small_cont h5 {
+        
+                         font-size: 20px;
+                         font-weight: 500;
+                         width: 100%;
+                     }
+        
+                     .text {
+        
+                         font-size: 20px;
+                         color: #545454;
+                     }
+        
+                     .skillss {
+        
+                         display: flex;
+                         justify-content: space-evenly;
+                         font-weight: 500;
+                         font-size: 15px;
+                     }
+        
+        
+                     .para {
+        
+                         position: relative;
+                         display: inline-block;
+                         margin-left: 0%;
+                     }
+
+                     .img {
+
+                     }
+        
+                     .para h1 {
+        
+                         font-size: 20px;
+                         margin-left: 1%;
+        
+                         margin-bottom: 20%;
+                     }
+        
+                     span {
+        
+                         color: #87B0C4;
+                         font-weight: 600;
+                     }
+        
+                     .para p {
+                         color: #555;
+                         line-height: 30px;
+                     }
+        
+        
+        
+        
+                     .iconscover {
+                         display: flex;
+                         flex-direction: column;
+        
+                         margin: 4%;
+                     }
+        
+                     #iconscover1 {
+                         margin-bottom: 15px;
+                     }
+        
+                     #iconscover2 {
+                         margin-bottom: 15px;
+                     }
+        
+        
+        
+        
+                     .socailcover p {
+                         margin: 10px 0px;
+        
+                     }
+        
+                     .img .me {
+        
+                         height: 50%;
+                         position: absolute;
+                         left: 135%;
+                         height: 36vw;
+        
+                     }
+        
+        
+        
+        
+                     .nav_bar {
+        
+                         display: none;
+        
+                     }
+        
+                     .drop {
+                         display: inline;
+                     }
+        
+        
+                     .fixed-bottom {
+                         text-align: right;
+                         margin-bottom: 2%;
+                         color: #eff4fd;
+                         font-size: small;
+        
+                     }
+                 }
+
+/*     ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd    */
+
+
+    @media screen and (min-width : 542px) and (max-width:770px) {
+
+
+        .contskills {
+
+            grid-template-columns: repeat(2, 1fr);
+            padding: 2rem 50px;
+        }
+
+
+        .contlang {
+
+            flex-direction: column;
+            justify-content: end;
+
+        }
+
+
+        .feat .contfree {
+
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
+        }
+
+        #img1 {
+            width: 310px;
+            height: 240px;
+            margin: 18px;
+            border-radius: 10%;
+
+        }
+
+        #img2 {
+            width: 310px;
+            height: 240px;
+            margin: 18px;
+            border-radius: 10%;
+        }
+
+        #img3 {
+            width: 310px;
+            height: 240px;
+            margin: 18px;
+            border-radius: 10%;
+        }
+
+        .rowcourse {
+
+            flex-direction: column;
+
+        }
 
         .features .container {
 
-            margin-right: 50%;
-            gap:20px;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
         }
 
-                #img1 {
-                    width: 350px;
-                    height: 260px;
+        .education_section {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr);
 
-                }
-       
-            #img2 {
+        }
+
+        .exper {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            position: relative;
+        }
+
+        .img_aut {
+            position: absolute;
+            right: 35%;
+        }
+
+
+
+        .about {
+
+            background-color: #262626;
+        }
+
+        .body .about {
+
+            /* height: 40%; */
+
+
+
+            background-color: black;
+        }
+
+        .about-section {
+
+            background-color: #262626;
+            position: relative;
+
+
+        }
+
+        .about-section img {
+            position: relative;
+            right: 150%;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .small_cont {
+
+            width: 100%;
+            float: left;
+            background-color: #eff4fd;
+
+
+        }
+
+        .small_cont h5 {
+
+            font-size: 20px;
+            font-weight: 500;
+            width: 100%;
+        }
+
+        .text {
+
+            font-size: 20px;
+            color: #545454;
+        }
+
+        .skillss {
+
+            display: flex;
+            justify-content: space-evenly;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+
+        .para {
+
+            position: relative;
+            display: inline-block;
+            margin-left: 0%;
+        }
+
+        .para h1 {
+
+            font-size: 20px;
+            margin-left: 1%;
+
+            margin-bottom: 20%;
+        }
+
+        span {
+
+            color: #87B0C4;
+            font-weight: 600;
+        }
+
+        .para p {
+            color: #555;
+            line-height: 30px;
+        }
+
+
+
+
+        .iconscover {
+            display: flex;
+            flex-direction: column;
+
+            margin: 4%;
+        }
+
+        #iconscover1 {
+            margin-bottom: 15px;
+        }
+
+        #iconscover2 {
+            margin-bottom: 15px;
+        }
+
+
+
+
+        .socailcover p {
+            margin: 10px 0px;
+
+        }
+
+        .img .me {
+
+            height: 50%;
+            position: absolute;
+            left: 175%;
+            height: 36vw;
+
+        }
+
+
+
+
+        .nav_bar {
+
+            display: none;
+
+        }
+
+        .drop {
+            display: inline;
+        }
+
+
+        .fixed-bottom {
+            text-align: right;
+            margin-bottom: 2%;
+            color: #eff4fd;
+            font-size: small;
+
+        }
+    }
+
+
+     /* ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+
+    @media screen and (min-width : 771px) and (max-width:913px) {
+
+
+        .contskills {
+
+            grid-template-columns: repeat(2, 1fr);
+            padding: 2rem 50px;
+        }
+
+
+        .contlang {
+
+            flex-direction: column;
+            justify-content: end;
+
+        }
+
+
+        .feat .contfree {
+
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+        }
+
+        #img1 {
             width: 350px;
-                height: 260px;
-               
-            }
+            height: 260px;
+            margin: 18px;
+            border-radius: 10%;
 
-            #img3 {
-                width: 350px;
-                    height: 260px;
-            }
+        }
+
+        #img2 {
+            width: 350px;
+            height: 260px;
+            margin: 18px;
+            border-radius: 10%;
+        }
+
+        #img3 {
+            width: 350px;
+            height: 260px;
+            margin: 18px;
+            border-radius: 10%;
+        }
+
+        .rowcourse {
+
+            flex-direction: column;
+
+        }
+
+        .features .container {
+
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
+        }
+
+        .education_section {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+        }
+
+        .exper {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            position: relative;
+        }
+
+        .img_aut {
+            position: absolute;
+            right: 35%;
+        }
 
 
-          .education_section {
-margin: 0%;
-margin-right: 5%;
-margin-right: 5%;
-gap: 150px;
 
-          }
-}
+        .about {
+
+            background-color: #262626;
+        }
+
+        .body .about {
+
+            /* height: 40%; */
 
 
 
-@media screen and ( min-width : 1024px ) and (max-width : 1278)
+            background-color: black;
+        }
 
-{
-  
+        .about-section {
+
+            background-color: #262626;
+            position: relative;
+
+
+        }
+
+        .about-section img {
+            position: relative;
+            right: 150%;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .small_cont {
+
+            width: 100%;
+            float: left;
+            background-color: #eff4fd;
+
+
+        }
+
+        .small_cont h5 {
+
+            font-size: 20px;
+            font-weight: 500;
+            width: 100%;
+        }
+
+        .text {
+
+            font-size: 20px;
+            color: #545454;
+        }
+
+        .skillss {
+
+            display: flex;
+            justify-content: space-evenly;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+
+        .para {
+
+            position: relative;
+            display: inline-block;
+            margin-left: 0%;
+        }
+
+        .para h1 {
+
+            font-size: 20px;
+            margin-left: 1%;
+
+            margin-bottom: 20%;
+        }
+
+        span {
+
+            color: #87B0C4;
+            font-weight: 600;
+        }
+
+        .para p {
+            color: #555;
+            line-height: 30px;
+        }
+
+
+
+
+        .iconscover {
+            display: flex;
+            flex-direction: column;
+
+            margin: 4%;
+        }
+
+        #iconscover1 {
+            margin-bottom: 15px;
+        }
+
+        #iconscover2 {
+            margin-bottom: 15px;
+        }
+
+
+
+
+        .socailcover p {
+            margin: 10px 0px;
+
+        }
+
+        .img .me {
+
+            height: 50%;
+            position: absolute;
+            left: 180%;
+            height: 36vw;
+
+        }
+
+
+
+        .nav_bar {
+
+            display: none;
+
+        }
+
+        .drop {
+            display: inline;
+        }
+
+
+        .fixed-bottom {
+            text-align: right;
+            margin-bottom: 2%;
+            color: #eff4fd;
+            font-size: small;
+
+        }
+    }
+
+    /* ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+
+          @media screen and (min-width : 914px) and (max-width:1025px) {
     
+    
+              .contskills {
+    
+                  grid-template-columns: repeat(2, 1fr);
+                  padding: 2rem 50px;
+              }
+    
+    
+              .contlang {
+    
+                  flex-direction: column;
+                  justify-content: end;
+    
+              }
+    
+    
+              .feat .contfree {
+    
+                  grid-template-columns: repeat(2, 1fr);
+                  grid-template-rows: repeat(2, 1fr);
+    
+              }
+    
+              #img1 {
+                  width: 350px;
+                  height: 260px;
+                  margin: 18px;
+                  border-radius: 10%;
+    
+              }
+    
+              #img2 {
+                  width: 350px;
+                  height: 260px;
+                  margin: 18px;
+                  border-radius: 10%;
+              }
+    
+              #img3 {
+                  width: 350px;
+                  height: 260px;
+                  margin: 18px;
+                  border-radius: 10%;
+              }
+    
+              .rowcourse {
+    
+                  flex-direction:row;
+    
+              }
+    
+              .features .container {
+    
+                  grid-template-columns: repeat(2, 1fr);
+                  grid-template-rows: repeat(2, 1fr);
+    
+              }
+    
+              .education_section {
+                  grid-template-columns: repeat(2, 1fr);
+                  grid-template-rows: repeat(2, 1fr);
+    
+              }
+    
+              .exper {
+                  grid-template-columns: repeat(1, 1fr);
+                  grid-template-rows: repeat(2, 1fr);
+                  position: relative;
+              }
+    
+              .img_aut {
+                  position: absolute;
+                  right: 35%;
+              }
+    
+    
+    
+              .about {
+    
+                  background-color: #262626;
+              }
+    
+              .body .about {
+    
+                  /* height: 40%; */
+    
+    
+    
+                  background-color: black;
+              }
+    
+              .about-section {
+    
+                  background-color: #262626;
+                  position: relative;
+    
+    
+              }
+    
+              .about-section img {
+                  position: relative;
+                  right: 150%;
+                  width: 100%;
+                  height: 100vh;
+              }
+    
+              .small_cont {
+    
+                  width: 100%;
+                  float: left;
+                  background-color: #eff4fd;
+    
+    
+              }
+    
+              .small_cont h5 {
+    
+                  font-size: 20px;
+                  font-weight: 500;
+                  width: 100%;
+              }
+    
+              .text {
+    
+                  font-size: 20px;
+                  color: #545454;
+              }
+    
+              .skillss {
+    
+                  display: flex;
+                  justify-content: space-evenly;
+                  font-weight: 500;
+                  font-size: 15px;
+              }
+               
+              .contlang {
+            
+                display: flex;
+                flex-direction: row;
+                
+                justify-content: space-evenly;
+                align-self: center;
+                text-align: center;
+                padding: 1rem 80px;
+                font-size: 1.2rem;
+            }
+    
+              .para {
+    
+                  position: relative;
+                  display: inline-block;
+                  margin-left: 0%;
+              }
+    
+              .para h1 {
+    
+                  font-size: 20px;
+                  margin-left: 1%;
+    
+                  margin-bottom: 20%;
+              }
+    
+              span {
+    
+                  color: #87B0C4;
+                  font-weight: 600;
+              }
+    
+              .para p {
+                  color: #555;
+                  line-height: 30px;
+              }
+    
+    
+    
+    
+              .iconscover {
+                  display: flex;
+                  flex-direction: column;
+    
+                  margin: 4%;
+              }
+    
+              #iconscover1 {
+                  margin-bottom: 15px;
+              }
+    
+              #iconscover2 {
+                  margin-bottom: 15px;
+              }
+    
+    
+    
+    
+              .socailcover p {
+                  margin: 10px 0px;
+    
+              }
+    
+              .img .me {
+    
+                  height: 50%;
+                  position: absolute;
+                  left: 180%;
+                  height: 36vw;
+    
+              }
+    
+    
+    
+              .nav_bar {
+    
+                  display: none;
+    
+              }
+    
+              .drop {
+                  display: inline;
+              }
+    
+    
+              .fixed-bottom {
+                  text-align: right;
+                  margin-bottom: 2%;
+                  color: #eff4fd;
+                  font-size: small;
+    
+              }
+          }
 
-}
+
+          /* dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+
+
+    @media screen and (min-width : 1026px) and (max-width:1281px) {
+
+
+        .contskills {
+
+            grid-template-columns: repeat(2, 1fr);
+            padding: 2rem 50px;
+        }
+
+
+        .contlang {
+
+            flex-direction: column;
+            justify-content: end;
+
+        }
+
+
+        .feat .contfree {
+
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+
+        }
+
+        #img1 {
+            width: 350px;
+            height: 260px;
+            margin: 18px;
+            border-radius: 10%;
+
+        }
+
+        #img2 {
+            width: 350px;
+            height: 260px;
+            margin: 18px;
+            border-radius: 10%;
+        }
+
+        #img3 {
+            width: 350px;
+            height: 260px;
+            margin: 18px;
+            border-radius: 10%;
+        }
+
+        .rowcourse {
+
+            flex-direction: row;
+
+        }
+
+        .features .container {
+
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+
+        }
+
+        .education_section {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+        }
+
+        .exper {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            position: relative;
+        }
+
+        .img_aut {
+            position: absolute;
+            right: 35%;
+        }
+
+
+
+        .about {
+
+            background-color: #262626;
+        }
+
+        .body .about {
+
+            /* height: 40%; */
+
+
+
+            background-color: black;
+        }
+
+        .about-section {
+
+            background-color: #262626;
+            position: relative;
+
+
+        }
+
+        .about-section img {
+            position: relative;
+            right: 150%;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .small_cont {
+
+            width: 100%;
+            float: left;
+            background-color: #eff4fd;
+
+
+        }
+
+        .small_cont h5 {
+
+            font-size: 20px;
+            font-weight: 500;
+            width: 100%;
+        }
+
+        .text {
+
+            font-size: 20px;
+            color: #545454;
+        }
+
+        .skillss {
+
+            display: flex;
+            justify-content: space-evenly;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .contlang {
+
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-evenly;
+            align-self: center;
+            text-align: center;
+            padding: 1rem 80px;
+            font-size: 1.2rem;
+        }
+
+        .para {
+
+            position: relative;
+            display: inline-block;
+            margin-left: 0%;
+        }
+
+        .para h1 {
+
+            font-size: 20px;
+            margin-left: 1%;
+
+            margin-bottom: 20%;
+        }
+
+        span {
+
+            color: #87B0C4;
+            font-weight: 600;
+        }
+
+        .para p {
+            color: #555;
+            line-height: 30px;
+        }
+
+
+
+
+        .iconscover {
+            display: flex;
+            flex-direction: column;
+
+            margin: 4%;
+        }
+
+        #iconscover1 {
+            margin-bottom: 15px;
+        }
+
+        #iconscover2 {
+            margin-bottom: 15px;
+        }
+
+
+
+
+        .socailcover p {
+            margin: 10px 0px;
+
+        }
+
+        .img .me {
+
+            height: 50%;
+            position: absolute;
+            left: 300%;
+            height: 36vw;
+
+        }
+
+
+
+        .nav_bar {
+
+            display: none;
+
+        }
+
+        .drop {
+            display: inline;
+        }
+
+
+        .fixed-bottom {
+            text-align: right;
+            margin-bottom: 2%;
+            color: #eff4fd;
+            font-size: small;
+
+        }
+    }
+
+
+    /* Finishhh  */
