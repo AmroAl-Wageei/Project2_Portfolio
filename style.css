@@ -674,7 +674,7 @@ margin-left: 26px;
 
     background-color: #262626;
     background-color: #D9D9D9;
-    background-image: url('../Images/abrar3.jpg');
+    background-image: url('./Images/abrar3.jpg');
     background-position:bottom;
     background-repeat:repeat-x;
     width: 100vw;
@@ -895,7 +895,7 @@ margin-left: 26px;
 
     width: 800px;
     height: 600px;
-    background:url('../Images/RIP.jfif');
+    background:url('Images/RIP.jfif');
     margin: 100px auto;
     animation: slide 15s infinite;
 }
@@ -907,20 +907,20 @@ margin-left: 26px;
 @keyframes slide {
 
 25% {
-    background: url('../Images/slide1.jpeg');
+    background: url('Images/slide1.jpeg');
 }
 
 
 50% {
-    background: url('../Images/aqb.jpeg');
+    background: url('Images/aqb.jpeg');
 }
 
 70% {
-    background: url('../Images/slide4.jpeg');
+    background: url('Images/slide4.jpeg');
 }
 
 100% {
-    background: url('../Images/6.jpeg');
+    background: url('Images/6.jpeg');
 }
 
 }
